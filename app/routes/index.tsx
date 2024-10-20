@@ -24,7 +24,7 @@ const updateCount = createServerFn('POST', async (addBy: number) => {
 
 export const Route = createFileRoute('/')({
   component: Home,
-  loader: async () => await getCount(),
+  loader: async () => getCount(),
   notFoundComponent: () => <h1>Route not found</h1>
 })
 
