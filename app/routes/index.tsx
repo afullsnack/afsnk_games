@@ -30,14 +30,14 @@ function Home() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          Make things float in air
+        Create game boards with your rules
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Customise rules like minimum wager amount, win payout percentage, difficulty levels, e.t.c.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <img
@@ -48,15 +48,15 @@ function Home() {
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
+        <div className="flex justify-between items-center mt-10">
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://twitter.com/mannupaaji"
+            to={'/whitepaper'}
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white text-foreground"
           >
-            Try now →
+            Read whitepaper →
           </CardItem>
           <CardItem
             translateZ={20}
