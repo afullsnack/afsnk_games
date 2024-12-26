@@ -21,7 +21,7 @@ function Home() {
     <LandingLayout>
       <Section className='py-24 place-items-center grid gap-6'>
         <h1 className='text-center text-balance leading-none text-5xl font-bold font-sans lg:text-7xl'>Game and win <br/>your way!</h1>
-        <span className='text-center text-balance leading-none text-lg font-medium font-sans lg:text-xl'>Leveraging web3 to create engaing and rewarding experiences</span>
+        <span className='text-center text-balance leading-none text-lg font-medium font-sans lg:text-xl'>Leveraging web3 to create engaging and rewarding experiences</span>
       </Section>
 
     <CardContainer className="inter-var">
