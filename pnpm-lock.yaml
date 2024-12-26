@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@legendapp/state':
+        specifier: 3.0.0-beta.19
+        version: 3.0.0-beta.19(react@18.3.1)
       '@radix-ui/react-slot':
         specifier: ^1.1.1
         version: 1.1.1(@types/react@18.3.11)(react@18.3.1)
@@ -78,6 +81,9 @@ importers:
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
+      tailwindcss-motion:
+        specifier: ^1.0.0
+        version: 1.0.0(tailwindcss@3.4.17)
       typescript:
         specifier: ^5.5.3
         version: 5.6.3
@@ -708,6 +714,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@legendapp/state@3.0.0-beta.19':
+    resolution: {integrity: sha512-jA6GAV2UqTLdR7JNVG6q+ykycDEcV6Q9y0LNDLygEvajFNXYDKIkKl4tKnTdy5D9JFjTDkRxqt97pUhENgijyA==}
 
   '@mapbox/node-pre-gyp@1.0.11':
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
@@ -2809,6 +2818,11 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
+  tailwindcss-motion@1.0.0:
+    resolution: {integrity: sha512-Bc8XJxiSGjup0NHsph4OBGXXFfmbInFUhvVVluKPScQD1R2kDQTZIODqumsI/lONryeTpDdKzwuuw1a99Z38bQ==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders'
+
   tailwindcss@3.4.17:
     resolution: {integrity: sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==}
     engines: {node: '>=14.0.0'}
@@ -3595,6 +3609,12 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@legendapp/state@3.0.0-beta.19(react@18.3.1)':
+    dependencies:
+      use-sync-external-store: 1.2.2(react@18.3.1)
+    transitivePeerDependencies:
+      - react
 
   '@mapbox/node-pre-gyp@1.0.11':
     dependencies:
@@ -5877,6 +5897,10 @@ snapshots:
   tailwind-merge@2.6.0: {}
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.17):
+    dependencies:
+      tailwindcss: 3.4.17
+
+  tailwindcss-motion@1.0.0(tailwindcss@3.4.17):
     dependencies:
       tailwindcss: 3.4.17
 
