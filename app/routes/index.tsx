@@ -17,8 +17,7 @@ function Home() {
 
   return (
     <LandingLayout>
-      <p>Landing page of games</p>
-      <Button>Shadcn button</Button>
+      <h1 className='text-center text-balance leading-none text-4xl font-bold font-sans lg:text-7xl'>Game and win <br/>your way!</h1>
     </LandingLayout>
   )
 }
